@@ -26,4 +26,12 @@ This project not only predicts gender but also comapres various classifiers like
 Also, in our final phase we have used neural networks to predict gender of the images. For neural networks, Keras with tensorflow backend is used along with Convolution Neural Networks(CNN).
 
 Accuracies with various classifiers are discussed below:
-1.    Logistic regression : 
+1. Logistic regression :            77.99%
+2. SVM (Support Vector Machines):   77.94%   (if C = 10) | (can be increased by setting C = 1 | 78.2%)
+3. KNN (K nearest Neighbours):      76.16%   (taking neighbours = 15)
+4. Decision Tree Classifier:        69.12%
+5. MLP (multi layer perceptron):    77.32%
+6. CNN (keras with tensorflow):     91.94%
+
+These accuracies corrspond to the score in the Jupyter Notebook.
+For predictions: 1 - Male and 0 - Female
