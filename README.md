@@ -35,3 +35,5 @@ Accuracies with various classifiers are discussed below:
 
 These accuracies corrspond to the score in the Jupyter Notebook.
 For predictions: 1 - Male and 0 - Female
+
+Apart from Jupyter Notebooks, the front end of the project(not linked with model yet) is also uploaded
